@@ -16,11 +16,16 @@ void variables();
 
 int main() {
 	// With the using namespace approach 
-	cout << "Hello World!";
+	cout << "Hello World!" << std::endl;
 
 	// Directly referencing the library
-	std::cout << "Hello World with direct reference!";
+	std::cout << "Hello World with direct reference!" << std::endl;
 
+	// User input
+	cout << "Type something here! " << endl;
+	string str;
+	cin >> str;
+	cout << "You entered \"" << str << "\"" << endl;
 
 	// Line breaks:
 	cout << "Line \n Break";
