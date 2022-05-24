@@ -15,7 +15,7 @@ void variables();
 
 
 int main() {
-	// With the using namespace approach
+	// With the using namespace approach 
 	cout << "Hello World!";
 
 	// Directly referencing the library

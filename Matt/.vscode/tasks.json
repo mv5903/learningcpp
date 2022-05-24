@@ -5,11 +5,15 @@
             "label": "C/C++: g++.exe build active file",
             "command": "C:\\MinGW\\bin\\g++.exe",
             "args": [
-                "-fdiagnostics-color=always",
                 "-g",
-                "${file}",
+                "-std=c++17",
+                "-I./include",
+                "-L./lib",
+                "src/\\*.cpp",
+                "src/glad.c",
+                "-lglfw3dll",
                 "-o",
-                "${fileDirname}\\${fileBasenameNoExtension}.exe"
+                "${workspaceFolder}/myprogram.exe"
             ],
             "options": {
                 "cwd": "${fileDirname}"
