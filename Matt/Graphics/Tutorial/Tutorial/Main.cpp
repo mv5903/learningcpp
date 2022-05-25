@@ -2,6 +2,9 @@
 #include <glad/glad.h>
 #include <GLFW/glfw3.h>
 
+//Self-made header file to simplify code
+#include "GraphicObject.h"
+
 // Shader sources
 const char* vertexShaderSource = "#version 330 core\n"
 "layout (location = 0) in vec3 aPost;\n"
@@ -18,6 +21,12 @@ const char* fragmentShaderSource = "#version 330 core\n"
 
 
 int main() {
+	int test[] = { 1, 2, 3, 4, 5 };
+	//Debug
+	//GraphicObject obj = new* GraphicObject(&test);
+
+
+
 	const int WIDTH = 800;
 	const int HEIGHT = 800;
 
