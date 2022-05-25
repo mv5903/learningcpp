@@ -1,3 +1,7 @@
+# Used to ignore system header files for glfw, glad, and khr with language statistics
+
+# Without this, project will show majority C, not C++
+
 glad.c linguist-vendored
 glfw3.h linguist-vendored
 glfw3native.h linguist-vendored
