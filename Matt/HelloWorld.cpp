@@ -127,20 +127,20 @@ void arrayFunction(int arr[5]) {
 
 /* CLASSES AND OBJECTS */
 class Car {
-public:
-	string model;
-	int age;
+	public:
+		string model;
+		int age;
 
-	Car(string model, int age) { // Constructors. If none provided, a default constructor is implicitly defined, just like in java
-		this->model = model;
-		this->age = age;
-	}
+		Car(string model, int age) { // Constructors. If none provided, a default constructor is implicitly defined, just like in java
+			this->model = model;
+			this->age = age;
+		}
 
-	void sayHi() {
-		cout << "Hi" << endl;
-	}
+		void sayHi() {
+			cout << "Hi" << endl;
+		}
 
-	void outsideClass(); //define later, outside of class
+		void outsideClass(); //define later, outside of class
 };
 
 void Car::outsideClass() {
