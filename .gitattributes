@@ -1,2 +1,5 @@
 glad.c linguist-vendored
-**/include/* linguist-vendored
+glfw3.h linguist-vendored
+glfw3native.h linguist-vendored
+khrplatform.h linguist-vendored
+glad.h linguist-vendored
