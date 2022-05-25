@@ -1,2 +1,2 @@
 glad.c linguist-vendored
-include/** linguist-vendored
+**/include/* linguist-vendored
