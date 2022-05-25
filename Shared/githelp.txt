@@ -1,0 +1,4 @@
+In the case that you wish to add to the gitignore, and "my gitignore won't work" run these commands from /learningcpp:
+
+git rm --cached -r .
+git add .
